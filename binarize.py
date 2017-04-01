@@ -42,24 +42,9 @@ def binarize_array(numpy_array, threshold):
     return numpy_array
 
 
-def get_parser():
-    """Get parser object for script xy.py."""
-    from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
-    parser = ArgumentParser(description=__doc__,
-                            formatter_class=ArgumentDefaultsHelpFormatter)
-    parser.add_argument("-i", "--input",
-                        dest="input",
-                        help="read this file",
-                        metavar="FILE",
-                        required=True)
-    parser.add_argument("-o", "--output",
-                        dest="output",
-                        help="write binarized file hre",
-                        metavar="FILE",
-                        required=True)
-    return parser
-
-
 if __name__ == "__main__":
-    args = get_parser().parse_args()
-    binarize_image(args.input, args.output)
+    image_name = 'captcha'
+    image_in = 'images/'+image_name+'.jpg'
+    image_out= 'images/'+image_name+'out.jpg'
+
+    binarize_image(image_in, image_out)
