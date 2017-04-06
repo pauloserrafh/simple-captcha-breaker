@@ -3,7 +3,7 @@
 understanding of captchas, image processing and python.
 It is NOT to be used to help spamming or similar activities._**
 
-##About 
+## About 
 This projects aim in simple captchas. With letters same with the same size 
 and usually in the same place of the image.
 Examples are in the trainingset folder.
@@ -18,12 +18,12 @@ that ~~works~~ and uploaded to avoid losing it. Maybe in the future I put more
 comments in the code. Or you can look in the references (most of it is based on
 Boyter solution). 
 
-###Does it work? I think so. Still creating the training set.
-###Is it efficient? Not at all. 
-###Is it pythonic? Don't think so.
-###Should you use it? It's up to you.
+### Does it work? I think so. Still creating the training set.
+### Is it efficient? Not at all. 
+### Is it pythonic? Don't think so.
+### Should you use it? It's up to you.
 
-##References
+## References
 I've used a lot of references from the web. Starting from python tutorials to
 image processing and specifics for captcha breaking. Some of the references
 are also (some are only there) in the code.
